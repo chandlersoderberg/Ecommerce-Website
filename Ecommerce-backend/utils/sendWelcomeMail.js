@@ -22,12 +22,17 @@ const sendWelcomeMail = async (user) => {
     </div>
   `;
 
-  await transport.sendMail({
-    from: `"VStore Official" <${process.env.MAIL_USER}>`,
-    to: user.email,
-    subject: "Registration Successful | VStore",
-    html: mailTemplate({ title, content }),
-  });
+  try {
+    await transport.sendMail({
+      from: `"VStore Official" <${process.env.MAIL_USER}>`,
+      to: user.email,
+      subject: "Registration Successful | VStore",
+      html: mailTemplate({ title, content }),
+    });
+    console.log(`[MAIL] Welcome email sent to ${user.email}`);
+  } catch (error) {
+    console.error(`[MAIL_ERROR] Could not send welcome email to ${user.email}:`, error);
+  }
 };
 
 export default sendWelcomeMail;
