@@ -1,0 +1,33 @@
+import { createTransport } from "nodemailer";
+import { mailTemplate } from "./mailTemplate.js";
+
+const sendWelcomeMail = async (user) => {
+  const transport = createTransport({
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true,
+    auth: {
+      user: process.env.MAIL_USER,
+      pass: process.env.MAIL_PASS,
+    },
+  });
+
+  const title = "Welcome to VStore Masterpiece!";
+  const content = `
+    <p>Dear <strong>${user.name || user.email.split('@')[0]}</strong>,</p>
+    <p>Your account has been officially activated on <strong>VStore</strong>. We are thrilled to have you as part of our exclusive circle of shoppers.</p>
+    <p>Discover our latest curated collections from Austin, TX and enjoy a premium shopping experience tailored just for you.</p>
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="${process.env.Frontend_Url}" class="button">Visit Our Collections</a>
+    </div>
+  `;
+
+  await transport.sendMail({
+    from: `"VStore Official" <${process.env.MAIL_USER}>`,
+    to: user.email,
+    subject: "Registration Successful | VStore",
+    html: mailTemplate({ title, content }),
+  });
+};
+
+export default sendWelcomeMail;

@@ -46,7 +46,7 @@ const Footer = () => {
             <ul className="flex flex-col gap-3 text-sm font-bold">
               <li className="text-white">Downtown District, Downtown,</li>
               <li className="text-white mb-2">Austin TX 78701</li>
-              <li><a href="mailto:chandlersoderberg@gmail.com" className="hover:text-primary transition-colors italic truncate block">chandlersoderberg@gmail.com</a></li>
+              <li><a href="mailto:support@vstore.local" className="hover:text-primary transition-colors italic truncate block">support@vstore.local</a></li>
               <li className="text-primary font-black">+1 (555) 234-5678</li>
             </ul>
           </div>
