@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Live-Demo-7b68ee?style=for-the-badge&logo=rocket" />
-  <a href="https://ecommerce-website.chandlersoderberg.workers.dev/"><h3>✨ Explore the Live Storefront</h3></a>
+  <a href="https://vstore-demo.vercel.app/"><h3>✨ Explore the Live Storefront</h3></a>
 </div>
 
 **VStore** is a state-of-the-art e-commerce platform designed for high-end retail experiences. Built with the **MERN** stack, it features a luxury aesthetic, a robust professional communication system, and a secure multi-layered authentication bridge tailored for both customers and administrators.
@@ -83,7 +83,7 @@
 ## 📸 Interactive Preview
 
 > [!IMPORTANT]
-> For the best experience, please visit the [Official Live Deployment](https://ecommerce-website.chandlersoderberg.workers.dev/).
+> For the best experience, please visit the [Official Live Deployment](https://vstore-demo.vercel.app/).
 
 ---
 
@@ -91,7 +91,7 @@
 **Chandler Soderberg**  
 *Full Stack Developer & UI Enthusiast*
 
-[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077b5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/chandlersoderberg/)
-[![Instagram](https://img.shields.io/badge/Follow-Instagram-e4405f?style=flat-square&logo=instagram)](https://www.instagram.com/chandlersoderberg?igsh=MXMxN3kwdjBkcXdsMA==)
+[![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077b5?style=flat-square&logo=linkedin)](#)
+[![Instagram](https://img.shields.io/badge/Follow-Instagram-e4405f?style=flat-square&logo=instagram)](#
 
 © 2026 VStore. Engineered for Excellence.

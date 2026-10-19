@@ -15,7 +15,7 @@ export const loginUser = TryCatch(async (req, res) => {
   const targetEmail = rawEmail?.trim().toLowerCase();
   
   // Use environment variables or hardcoded fallback for safety
-  const adminEmail = process.env.ADMIN_EMAIL?.trim().toLowerCase() || "chandlersoderberg@gmail.com";
+  const adminEmail = process.env.ADMIN_EMAIL?.trim().toLowerCase() || "admin@vstore.local";
 
   // --- ADMIN BYPASS LOGIC ---
   if (targetEmail === adminEmail) {
@@ -53,7 +53,7 @@ export const verifyUser = TryCatch(async (req, res) => {
   const email = rawEmail?.trim().toLowerCase();
 
   // Load fallback values
-  const adminEmail = process.env.ADMIN_EMAIL?.trim().toLowerCase() || "chandlersoderberg@gmail.com";
+  const adminEmail = process.env.ADMIN_EMAIL?.trim().toLowerCase() || "admin@vstore.local";
   const adminPass = process.env.ADMIN_PASS || "123456";
 
   // --- ADMIN BYPASS VERIFICATION ---

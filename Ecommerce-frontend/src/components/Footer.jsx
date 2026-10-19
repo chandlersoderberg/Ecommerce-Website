@@ -18,13 +18,13 @@ const Footer = () => {
                 Founded by <span className="text-white font-bold">Chandler Soderberg</span>. Redefining the digital shopping experience with curated premium collections from Austin, TX.
              </p>
               <div className="flex gap-4">
-                <a href="https://www.linkedin.com/in/chandlersoderberg/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-all cursor-pointer">
+                <a href="#" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-all cursor-pointer">
                    <Linkedin size={18} />
                 </a>
-                <a href="https://chandlersoderberg-portfolio.vercel.app/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-all cursor-pointer text-xs font-black uppercase tracking-tighter">
+                <a href="https://vstore-demo.vercel.app/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-all cursor-pointer text-xs font-black uppercase tracking-tighter">
                    PORT
                 </a>
-                <a href="https://www.instagram.com/chandlersoderberg?igsh=MXMxN3kwdjBkcXdsMA==" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-all cursor-pointer">
+                <a href="#" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-all cursor-pointer">
                    <Instagram size={18} />
                 </a>
              </div>
@@ -44,7 +44,7 @@ const Footer = () => {
           <div className="flex flex-col gap-6">
             <h3 className="text-sm font-black text-white uppercase tracking-widest text-primary/80">Support</h3>
             <ul className="flex flex-col gap-3 text-sm font-bold">
-              <li className="text-white">Downtown District, Downtown,</li>
+              <li className="text-white">Downtown District,</li>
               <li className="text-white mb-2">Austin TX 78701</li>
               <li><a href="mailto:support@vstore.local" className="hover:text-primary transition-colors italic truncate block">support@vstore.local</a></li>
               <li className="text-primary font-black">+1 (555) 234-5678</li>

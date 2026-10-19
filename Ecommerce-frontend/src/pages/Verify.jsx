@@ -70,18 +70,18 @@ const Verify = () => {
           <CardContent className="px-10 space-y-6">
             <div className="space-y-3 text-center">
               <Label className="text-xs font-black uppercase tracking-widest text-muted-foreground">
-                {localStorage.getItem("email") === "chandlersoderberg@gmail.com" ? "Administrative Password" : "One-Time Password"}
+                {localStorage.getItem("email") === "admin@vstore.local" ? "Administrative Password" : "One-Time Password"}
               </Label>
               <Input
-                type={localStorage.getItem("email") === "chandlersoderberg@gmail.com" ? "password" : "text"}
-                placeholder={localStorage.getItem("email") === "chandlersoderberg@gmail.com" ? "••••••" : "000000"}
+                type={localStorage.getItem("email") === "admin@vstore.local" ? "password" : "text"}
+                placeholder={localStorage.getItem("email") === "admin@vstore.local" ? "••••••" : "000000"}
                 value={otp}
                 onChange={(e) => setOtp(e.target.value)}
                 required
                 className="h-16 rounded-2xl border-border px-6 text-center text-3xl font-black tracking-[0.3em] focus-visible:ring-primary shadow-sm transition-all"
               />
               <p className="text-xs text-muted-foreground font-medium pt-2">
-                {localStorage.getItem("email") === "chandlersoderberg@gmail.com" 
+                {localStorage.getItem("email") === "admin@vstore.local" 
                   ? "Enter your secure master password to access the administrative panel."
                   : "Check your spam folder if you can't find it in your inbox."}
               </p>
