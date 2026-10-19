@@ -181,7 +181,7 @@ const InventoryPage = () => {
             </div>
 
             <div className="space-y-2">
-               <label className="text-[10px] font-black uppercase tracking-widest text-muted-foreground ml-1">Base Price (INR)</label>
+               <label className="text-[10px] font-black uppercase tracking-widest text-muted-foreground ml-1">Base Price (USD)</label>
                <Input name="price" type="number" placeholder="0.00" value={formData.price} onChange={handleChange} required className="h-12 rounded-xl" />
             </div>
 

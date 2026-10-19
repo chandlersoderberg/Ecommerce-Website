@@ -22,7 +22,7 @@
 - **Role-Based Provisioning**: Automatic role escalation—logging in with the admin email automatically grants full dashboard access.
 
 ### 💳 Transactional Infrastructure
-- **Stripe Power-Up**: Secure online payments with localized INR support and automatic session reconciliation.
+- **Stripe Power-Up**: Secure online payments with multi-currency support and automatic session reconciliation.
 - **Fallback COD**: Reliable Cash on Delivery workflow with dedicated "Place Order" logic.
 - **Inventory Control**: Precise real-time stock synchronization and "Sold" tracking upon successful checkout.
 
